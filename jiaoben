@@ -1,0 +1,11 @@
+#!/bin/bash
+touch huo
+echo 111 >> huo
+git ad
+git ci -m "creat huo"
+git push
+
+rm huo
+git ad
+git ci -m "delete huo"
+git push
