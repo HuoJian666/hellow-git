@@ -1,0 +1,5 @@
+#!/bin/bash
+touch 1jiao
+git ad
+git ci -m "add 1jiao"
+git push
