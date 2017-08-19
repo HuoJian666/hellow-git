@@ -1,5 +1,5 @@
 #!/bin/bash
-touch 1jiao
+touch A
 git ad
 git ci -m "add 1jiao"
 git push
